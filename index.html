@@ -7,21 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Style adjustment</title>
     <link rel="stylesheet" href="./css/style.css">
-    <!--<style>
-        p {
-            color: green;
-            width: 700px;
-        }
-    </style>-->
 </head>
 
 <body>
 
     <header></header>
     <main>
-        <p class="byClass">"class" selector is used to determine style by element class</p>
-        <p id="byId">"id" selector is used to determine style by element ID</p>
-        <p data-target="id">"data-target" selector is used to determine style by element attribute</p>
+        <p>Color can be set to a particular element globally.</p>
+        <p class="class1">"class" selector is used to determine style by element class.</p>
+        <p id="id-1">"id" selector is used to determine style by element id.</p>
+        <p class="2-class">"^" symbol is used to select classes with their names starting with particular sequence of
+            symbols.</p>
+        <p class="class-3">"*" symbol is used to select all classes containing particular sequence of symbols.</p>
+        <p class="class-4">This text is pink because the above applies.</p>
+        <p id="id-2">Element style can be determined by a combination of consecutive attributes.</p>
+        <p data-target="ref-1">Style can be determined by element attribute.</p>
+        <div>It is possible to <span>mark up a part of text</span> only.</div>
+        <p class>Styles can be applied to <span>nested elements</span>.</p>
+        <p class="class5">Style can be applied to</p>
+        <p id="id-3">several elements at once.</p>
     </main>
     <footer></footer>
 

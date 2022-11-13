@@ -1,4 +1,49 @@
+* {
+  color: grey;
+}
 p {
   color: blue;
-  width: 1000px;
+}
+
+.class1 {
+  color: brown;
+}
+
+#id-1 {
+  color: green;
+}
+
+[data-target="ref-1"] {
+  color: purple;
+}
+
+div span {
+  color: crimson;
+}
+
+p[class^="2"] {
+  color: yellowgreen;
+  width: 500px;
+}
+
+p[class*="class-"] {
+  color: pink;
+  width: 500px;
+}
+
+p.class-4 + p[id*="2"] {
+  color: orange;
+}
+
+p > span {
+  color: coral;
+}
+
+p > span {
+  color: magenta;
+}
+
+.class5,
+#id-3 {
+  color: red;
 }
