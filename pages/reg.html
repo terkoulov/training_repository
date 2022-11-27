@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header></header>
+    <main>
+        <section>
+            <h1>Форма реєстрації</h1>
+            <form action="https://fom.in.ua/echo" method="post">
+                <p>
+                    <label>Введіть ваш логін
+                        <input type="email" name="login" placeholder="youremail@mail.com" required>
+                    </label>
+                </p>
+                <p>
+                    <label>Введіть ваш пароль
+                        <input type="password" name="password" placeholder="Мінімум 8 символів" required minlength="8">
+                    </label>
+                </p>
+                <p>
+                    <label>Підтвердження паролю
+                        <input type="password" name="password2" placeholder="Повторіть пароль" required minlength="8">
+                    </label>
+                </p>
+                <p>
+                    <label>Введіть ваш псевдонім
+                        <input type="text" name="nickname" placeholder="Ваш псевдоним" required>
+                    </label>
+                </p>
+                <p>
+                    <label>Введіть ваше ім’я
+                        <input type="text" name="name" placeholder="Ваше ім’я">
+                    </label>
+                </p>
+                <p>
+                    <label>Вкажіть вашу дату народження
+                        <input type="date" name="date">
+                    </label>
+                </p>
+                <p>Вкажіть вашу стать <br>
+                    <label>Чол.
+                        <input type="radio" name="gender" value="male">
+                    </label><br>
+                    <label>Жін.
+                        <input type="radio" name="gender" value="female">
+                    </label>
+                </p>
+                <p>
+                    <label>Введіть свій номер телефону
+                        <input type="tel" name="phone" placeholder="+380123456789" required>
+                    </label>
+                </p>
+                <p>
+                    <button>Зареєструватися</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
