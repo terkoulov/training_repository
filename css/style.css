@@ -13,46 +13,48 @@ img {
   max-width: 100%;
 }
 
-/* .container {
+.container {
   width: 100%;
-  max-width: 1100px;
+  max-width: calc(1110px + 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 
 html {
-  font-size: 18px;
-  line-height: 1.5rem;
-}
-p {
-  margin: 20px;
+  font-size: 16px;
 }
 
-img {
-  max-width: 55px;
+table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
 }
 
-.red {
-  color: red;
-  background-color: lightslategray;
+tr,
+td {
+  padding: 0.25rem;
+  border: 1px solid;
 }
 
-.black {
-  color: black;
-  background-color: lightslategray;
+.table-name {
+  font-weight: 700;
 }
 
-.blue {
-  color: blue;
-  background-color: lightslategray;
+.bg-yellow {
+  background: yellow;
 }
 
-.white {
-  color: white;
-  background-color: lightslategray;
-}
-
-.yellow {
+.hide {
   color: yellow;
-  background-color: lightslategray;
+}
+
+.hide-border {
+  border: none;
+}
+
+.hide-week {
+  padding-bottom: 28px;
 }
