@@ -15,53 +15,15 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1100px;
+  max-width: calc(1110px + 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 html {
   font-size: 16px;
-  color: white;
-  font-weight: 700;
-}
-
-body {
-  background: #c4c4c4;
-}
-
-.wrapper {
-  width: 100%;
-  max-width: 1000px;
-  background: #e6e6e6;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  display: inline-block;
-  text-align: center;
-}
-
-.square {
-  width: 200px;
-  height: 200px;
-  background: #fc8f8f;
-  float: left;
-  font-size: 30px;
-}
-
-.right {
-  float: right;
-}
-
-.left {
-  float: left;
-}
-
-.square + .square {
-  margin-left: 15px;
-}
-
-.small {
-  width: 100px;
-  height: 100px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
 }
